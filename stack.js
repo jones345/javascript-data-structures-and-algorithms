@@ -1,5 +1,16 @@
 // function of stack: push, pop, peek,lenth
+/*
 
+A stack is a data stucture that holds a list of elements, Astack works based on the LIFO principle Last in, First out
+neaning that the most recently added element is the first one to remove 
+
+A Stack has two main operations that occure only at the top of the stack : PUSH() AMD POP(). THE pusj operation places an 
+element at the top of the stack whereas the pop operation removes an element from the top of the stack
+
+A  stack has many application: For example, the simplest one is to reverse a word. to do so, you push a word into the stack,
+letter by letter, and pop the letters from the stack
+
+ */
 var letters = []; // this is our stack
 var word = "racecar"
 
